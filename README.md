@@ -1,0 +1,2 @@
+# FACalculator
+Calculates FA scores
