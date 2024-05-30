@@ -4,7 +4,7 @@
 
 Calculates Air Force Fitness Assessment scores for ROTC. The fitness assessment
 consists of push-ups, sit-ups, and a 1.5 mile run. This program will read in a
-.csv file 
+.csv file. 
 
 ## Formatting
 
