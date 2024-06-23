@@ -8,8 +8,6 @@ consists of push-ups, sit-ups, and a 1.5 mile run. This program will read in a
 
 ## Formatting
 
-### 
-
 ### How to Format the Input File
 
 The format for the .csv file used for program input is below:
@@ -42,4 +40,4 @@ The link [here](https://docs.google.com/spreadsheets/d/1c8SRzbzgjGFrWn_AW2ahf8Lj
 
 The limitations (for now) are below: 
 * Only calculates males and females up to 29 years old.
-* Only accounts for push-ups, sit-ups, and the 1.5 mile run
+* Only accounts for push-ups, sit-ups, and the 1.5 mile run.
