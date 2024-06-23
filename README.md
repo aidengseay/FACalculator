@@ -20,6 +20,8 @@ So an example would be:
 
 `"Smith, Joe", M, 20, 56, 60, 9:30, 4`
 
+![Screenshot 2024-06-23 122640](https://github.com/aidengseay/FACalculator/assets/108606344/433602e5-1c6b-4ce0-8ab0-3f02738243cd)
+
 ### Format of Output File
 
 The format for the .csv file used for program output is below:
