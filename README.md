@@ -34,4 +34,3 @@ So an example would be:
 
 The limitations (for now) are below: 
 * Only calculates males and females up to 29 years old.
-* Only calculates group 4 altitude adjustment
