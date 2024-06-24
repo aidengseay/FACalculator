@@ -25,7 +25,7 @@ def import_data():
         return df
 
     except:
-        print("error, import file not found: program terminated")
+        print("\nerror, import file not found: program terminated")
         print("input data should be in IO directory")
         return pd.DataFrame()
     
@@ -38,13 +38,17 @@ def import_table(age, gender):
         return df
 
     except:
-        print("error, age out of range")
+        print("\nerror, age out of range: program terminated")
         return pd.DataFrame()
     
 
 def initialize_output():
 
-    pass
+    df = pd.DataFrame(columns=[NAME, GENDER, AGE, PU_REP, SU_REP, 
+                               RUN_TIME, ALT, ADJ_RUN_TIME, PU_SCR, 
+                               SU_SCR, RUN_SCR, TOT_SCR])
+    
+    return df
 
 
 
@@ -57,6 +61,6 @@ def round_age(age):
         if age <= AGES[index]:
             return AGES[index]
         
-    return None # age is too high to supports
+    return None # age is too high to support
 
 ################################################################################
