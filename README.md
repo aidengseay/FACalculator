@@ -24,7 +24,7 @@ So an example would be:
 
 The format for the .csv file used for program output is below:
 
-`Cadet Name (Last, First), Gender, Age, Push-Up Rep, Sit-Up Rep, Run Time, Altitude, Push-Up Score, Sit-Up Score, Run Score, Total Score`
+`Cadet Name (Last, First), Gender, Age, Push-Up Rep, Sit-Up Rep, Run Time, Altitude, Run Time Adjusted, Push-Up Score, Sit-Up Score, Run Score, Total Score`
 
 So an example would be:
 

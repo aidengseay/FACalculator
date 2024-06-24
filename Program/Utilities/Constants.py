@@ -13,6 +13,11 @@ PU_REP = "Push-Up Rep"
 SU_REP = "Sit-Up Rep"
 RUN_TIME = "Run Time"
 ALT = "Altitude"
+ADJ_RUN_TIME = "Run Time Adjusted"
+PU_SCR = "Push-Up Score"
+SU_SCR = "Sit-Up Score"
+RUN_SCR = "Run Score"
+TOT_SCR = "Total Score"
 
 # Chart CSV Headers
 CHT_PU_REP = "push-up_rep"

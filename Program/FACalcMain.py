@@ -10,6 +10,7 @@ Aiden Seay - Summer 2024
 ################################################################################
 # IMPORTS
 import Utilities.IOUtility as IO
+import Utilities.ScoreUtility as Score
 
 ################################################################################
 # CONSTANTS

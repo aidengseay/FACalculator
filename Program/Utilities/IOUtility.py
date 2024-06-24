@@ -40,6 +40,11 @@ def import_table(age, gender):
     except:
         print("error, age out of range")
         return pd.DataFrame()
+    
+
+def initialize_output():
+
+    pass
 
 
 
