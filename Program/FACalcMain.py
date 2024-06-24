@@ -9,18 +9,40 @@ Aiden Seay - Summer 2024
 '''
 ################################################################################
 # IMPORTS
-
+import Utilities.IOUtility as IO
 
 ################################################################################
 # CONSTANTS
-
+from Utilities.Constants import *
 
 ################################################################################
 # MAIN PROGRAM
 
 def main():
 
-    pass
+    # display introduction
+    print("FA CALCULATOR\n=============")
+
+    # get the input data
+    df = IO.import_data()
+
+    # check if valid input
+    if df.empty:
+        return 0
+    
+    # initialize output csv file
+
+    # iterate through each cadet row
+    for index, row in df.iterrows():
+
+        # get appropriate scoring table
+        age = row[AGE]
+        gender = row[GENDER]
+        table = IO.import_table(age, gender)
+
+        # start comparing
+        
+
 
 ################################################################################
 main()
