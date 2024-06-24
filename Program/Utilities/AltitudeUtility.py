@@ -1,10 +1,7 @@
 ################################################################################
-# AFROTC FITNESS ASSESSMENT CALCULATOR - MAIN
+# AFROTC FITNESS ASSESSMENT CALCULATOR - Altitude Utility
 '''
-Calculates FA scores from a csv file input. Completes assessment on push-ups,
-sit-ups, and the 1.5 mile run. Additionally, it completes the appropriate
-altitude adjustment. Can instantly calculate a list of scores for mass grading.
-
+Performs necessary altitude adjustments for the 1.5 mile run.
 Aiden Seay - Summer 2024
 '''
 ################################################################################
@@ -16,11 +13,14 @@ Aiden Seay - Summer 2024
 
 
 ################################################################################
-# MAIN PROGRAM
+# MAIN UTILITY FUNCTION
 
-def main():
+def adjust_altitude():
 
     pass
 
 ################################################################################
-main()
+# SUPPORTING UTILITY FUNCTIONS
+
+
+################################################################################
