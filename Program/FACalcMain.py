@@ -11,7 +11,6 @@ Aiden Seay - Summer 2024
 # IMPORTS
 import Utilities.IOUtility as io
 import Utilities.ScoreUtility as score
-import pandas as pd
 
 ################################################################################
 # CONSTANTS
