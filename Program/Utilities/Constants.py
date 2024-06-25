@@ -4,6 +4,7 @@
 MALE = "M"
 FEMALE = "F"
 AGES = (24, 29)
+INF = "inf"
 
 # Input/Output CSV Headers
 NAME = "Cadet Name (Last, First)"
@@ -26,5 +27,8 @@ CHT_SU_REP = "sit-up_rep"
 CHT_SU_SCR = "sit-up_score"
 CHT_RUN_TIME = "run_time"
 CHT_RUN_SCR = "run_score"
+
+# Altitude CSV headers
+ALT_TIME = "time"
 
 ################################################################################

@@ -15,6 +15,11 @@ from Utilities.Constants import *
 ################################################################################
 # MAIN UTILITY FUNCTIONS
 
+def import_alt_table():
+
+    df = pd.read_csv("../Tables/alt_correction.csv")
+    return df
+
 def import_data():
 
     csv_file_name = input("enter scorecard data .csv file: ")
