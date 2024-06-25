@@ -33,16 +33,21 @@ def lookup_push_up(table, count):
 
     return score
 
+
 def lookup_run(table, alt_table, time, alt):
 
     # complete altitude adjustment
-    adj_time = adjust_altitude(time, alt_table, alt)
+    if alt != 0:
+        adj_time = adjust_altitude(time, alt_table, alt)
+    else:
+        adj_time = time
 
     rounded_time = round_time(adj_time, table, CHT_RUN_TIME)
     row = table[table[CHT_RUN_TIME] == rounded_time]
     score = row[CHT_RUN_SCR].values[0]
 
     return score, adj_time
+
 
 def lookup_sit_up(table, count):
     

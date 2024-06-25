@@ -42,6 +42,7 @@ def main():
         if table.empty:
             return 0
         
+        # calculate scores
         push_up_score = score.lookup_push_up(table, row[PU_REP])
         sit_up_score = score.lookup_sit_up(table, row[SU_REP])
         run_score, adj_time = score.lookup_run(table, alt_table, row[RUN_TIME], 
@@ -49,6 +50,7 @@ def main():
 
         total_score = push_up_score + sit_up_score + run_score
 
+        # add to the output data frame
         new_row = {NAME:row[NAME], GENDER:row[GENDER], 
                    AGE:row[AGE], PU_REP:row[PU_REP], 
                    SU_REP:row[SU_REP], RUN_TIME:row[RUN_TIME],
@@ -58,6 +60,7 @@ def main():
         
         out_df.loc[len(out_df)] = new_row
 
+    # export data into a csv
     print("program success -> results in IO/FA_Results.csv")
     output_file = "../IO/FA_Results.csv"
     out_df.to_csv(output_file, index=False)       
