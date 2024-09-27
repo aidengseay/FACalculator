@@ -41,3 +41,4 @@ The link [here](https://docs.google.com/spreadsheets/d/1c8SRzbzgjGFrWn_AW2ahf8Lj
 The limitations (for now) are below: 
 * Only calculates males and females up to 29 years old.
 * Only accounts for push-ups, sit-ups, and the 1.5 mile run.
+* Max run time is 59:59
