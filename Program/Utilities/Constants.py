@@ -3,7 +3,7 @@
 
 MALE = "M"
 FEMALE = "F"
-AGES = (24, 29)
+AGES = (24, 29, 34)
 INF = "inf"
 
 # Input/Output CSV Headers
